@@ -22,7 +22,7 @@ placeholder [IFID] = "9F88AEBA-3269-11E0-BEA1-00242120BB7E"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2011"
 placeholder [TITLE] = "Computer Science House"
-placeholder [AUTHOR] = "'Chris Lockfort' The story headline is 'A Modern, Thrilling 3D First Person Shooter'"
+placeholder [AUTHOR] = "Chris Lockfort"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

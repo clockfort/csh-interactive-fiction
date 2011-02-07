@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x97bf1f8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>GNOME Inform 7</generator>
-  <activeNode nodeId="node-0x97bf1f8"/>
+  <activeNode nodeId="node-0xebf522c0"/>
   <item nodeId="node-0x97bf1f8">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,11 +9,11 @@
 
 
 Computer Science House
-An Interactive Fiction by &quot;Chris Lockfort&quot; The story headline is &quot;A Modern, Thrilling 3D First Person Shooter&quot;
+A Modern, Thrilling 3D First Person Shooter by Chris Lockfort
 Release 1 / Serial number 110206 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Lounge
-A large common room.
+A large common room. To the east lies the main hallway.
 
 You can see one projector, a media kiosk, a projector screen, six couches and a big-screen TV here.
 
@@ -27,11 +27,16 @@ You can see one projector, a media kiosk, a projector screen, six couches and a 
       <child nodeId="node-0x97bf630"/>
       <child nodeId="node-0xe9ecc110"/>
       <child nodeId="node-0xe9ecc620"/>
+      <child nodeId="node-0xf22b8ac8"/>
+      <child nodeId="node-0xeedd5e30"/>
+      <child nodeId="node-0xec5f1380"/>
+      <child nodeId="node-0xec4009f0"/>
+      <child nodeId="node-0xebf52038"/>
     </children>
   </item>
   <item nodeId="node-0x97bf630">
     <command xml:space="preserve">take couch</command>
-    <result xml:space="preserve">Taken.
+    <result xml:space="preserve">A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -45,6 +50,7 @@ You can see one projector, a media kiosk, a projector screen, six couches and a 
       <child nodeId="node-0xe9e836f8"/>
       <child nodeId="node-0xe9e83620"/>
       <child nodeId="node-0xe9ecc470"/>
+      <child nodeId="node-0xec400918"/>
     </children>
   </item>
   <item nodeId="node-0x97bf708">
@@ -221,6 +227,26 @@ You can see five couches here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
+  <item nodeId="node-0xec400918">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">one projector: Taken.
+media kiosk: Taken.
+projector screen: Taken.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+big-screen TV: You make a valiant attempt at lifting the television. It&apos;s lighter than it looks, it must be a DLP, but due to its sheer bulk, you&apos;ll still need another person to help you lift it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
   <item nodeId="node-0xe9ecc110">
     <command xml:space="preserve">take block</command>
     <result xml:space="preserve">Which do you mean, a red block, a blue block or the green block?
@@ -280,15 +306,19 @@ You can see five red blocks, four blue blocks and a green block here.
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 North Side Hallway
+The hallway is rather bright and cheery, and the sunlight plays nicely on a few brightly colored stripes that run the length of the wall, occasionally interspersed with giant hard drive platters. To the east is the lounge. To the north, the end of this hallway, and to the south, the elevator lobby.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
       <child nodeId="node-0xe9ecc6f8"/>
+      <child nodeId="node-0xeedd5ba8"/>
+      <child nodeId="node-0xec5f1020"/>
+      <child nodeId="node-0xebf52398"/>
     </children>
   </item>
   <item nodeId="node-0xe9ecc6f8">
@@ -336,6 +366,533 @@ North Side Hallway
   <item nodeId="node-0xf22b89f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xeedd5ba8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5c80"/>
+      <child nodeId="node-0xec400840"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5c80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5d58"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5d58">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xec400840">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xec5f1020">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f10f8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f10f8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f11d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f11d0">
+    <command xml:space="preserve">look at big drink</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f12a8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f12a8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xebf52398">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">The stripes painted on the wall are odd bright shades of pink and purple, which you know ought to be quite ugly, something that perhaps only a 1970&quot;s-era DEC engineer could love, but somehow you find the pallet comforting.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xebf522c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xebf522c0">
+    <command xml:space="preserve">x wall plaques</command>
+    <result xml:space="preserve">You see nothing special about Plaques.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xf22b8ac8">
+    <command xml:space="preserve">leave room</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xf22b8ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xf22b8ba0">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xf22b8c78"/>
+    </children>
+  </item>
+  <item nodeId="node-0xf22b8c78">
+    <command xml:space="preserve">cd</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xf22b8d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0xf22b8d50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xf22b8e28"/>
+    </children>
+  </item>
+  <item nodeId="node-0xf22b8e28">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+North Side Hallway
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xf22b8f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0xf22b8f00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lounge
+A large common room.
+
+You can see one projector, a media kiosk, a projector screen, six couches and a big-screen TV here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5848"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5848">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+North Side Hallway
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5920"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5920">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Elevator Lobby
+A large room that connects the two halves of floor with both each other and the outside world.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd59f8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd59f8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+North Side Hallway
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5ad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5ad0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xeedd5e30">
+    <command xml:space="preserve">take television</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xeedd5f08"/>
+    </children>
+  </item>
+  <item nodeId="node-0xeedd5f08">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a big-screen TV
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xec5f1380">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f1458"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f1458">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+North Side Hallway
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f1530"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f1530">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f1608"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f1608">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">End of the North Side Hallway
+The end of the north-side hallway. To the north, you see the door marked &quot;ARG room&quot;. To the east, you can see the L Hallway, which is somewhat ill-lit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec5f16e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec5f16e0">
+    <command xml:space="preserve">take cd-r</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xec4009f0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">one projector: Taken.
+media kiosk: Taken.
+projector screen: Taken.
+couch: A little Imps-director angel appears on your right shoulder, and gently reminds you that people need to use the couches too. A little social-director devil appears on your left shoulder, and tells you (in no uncertain terms) that the Imps-director can suck it. You, realizing that you couldn&apos;t lift the couch by yourself anyway, decide to side with the Imps director with a smile. You stop trying to take the couch.
+couch: It is too heavy to lift by yourself.
+couch: It is too heavy to lift by yourself.
+couch: It is too heavy to lift by yourself.
+couch: It is too heavy to lift by yourself.
+couch: It is too heavy to lift by yourself.
+big-screen TV: You make a valiant attempt at lifting the television. It&apos;s lighter than it looks, it must be a DLP, but due to its sheer bulk, you&apos;ll still need another person to help you lift it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400ac8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400ac8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400ba0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400c78"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400c78">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+North Side Hallway
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400d50">
+    <command xml:space="preserve">x stripes</command>
+    <result xml:space="preserve">The stripes painted on the wall are odd bright shades of pink and purple, which you know ought to be quite ugly, but somehow you find the pallet comforting.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400e28"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400e28">
+    <command xml:space="preserve">take stripes</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xec400f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0xec400f00">
+    <command xml:space="preserve">take foo</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xebf52038">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xebf52110"/>
+    </children>
+  </item>
+  <item nodeId="node-0xebf52110">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+North Side Hallway
+The hallway is rather bright and cheery, and the sunlight plays nicely on a few brightly colored stripes that run the length of the wall, occasionally interspersed with giant hard drive platters. To the east is the lounge. To the north, the end of this hallway, and to the south, the elevator lobby.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xebf521e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xebf521e8">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">The stripes painted on the wall are odd bright shades of pink and purple, which you know ought to be quite ugly, something that perhaps only a 1970&quot;s-era DEC engineer could love, but somehow you find the pallet comforting.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
