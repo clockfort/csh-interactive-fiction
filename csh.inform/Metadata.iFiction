@@ -6,18 +6,19 @@
             <format>zcode</format>
         </identification>
         <bibliographic>
-            <title>Computer Science House</title>
+            <title>Computer Science House: Race To Grace</title>
             <author>Chris Lockfort</author>
-            <headline>A Modern, Thrilling 3D First Person Shooter</headline>
-            <genre>Fiction</genre>
-            <firstpublished>2011</firstpublished>
+            <headline>A Text-Based Adventure Game</headline>
+            <genre>Simulation</genre>
+            <firstpublished>2012</firstpublished>
+            <description>Step inside the zany text-adventure world of CSH. Written for CSH GameJam 2012.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2011-02-06</releasedate>
+                    <releasedate>2012-01-22</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6G60</compilerversion>
@@ -27,10 +28,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6G60</generatorversion>
-            <originated>2011-02-06</originated>
+            <originated>2012-01-22</originated>
         </colophon>
         <zcode>
-            <serial>110206</serial>
+            <serial>120122</serial>
             <release>1</release>
             <compiler>Inform 7 build 6G60</compiler>
         </zcode>

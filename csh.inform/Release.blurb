@@ -1,37 +1,55 @@
 ! Blurb file created by Inform build 6G60
 
-status "/usr/share/gnome-inform7/Extensions/Reserved/CblorbModel.html" "/home/clockfort/Code/csh-if/csh.inform/Build/StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\clockfort\Dropbox\Code\csh-if\csh.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/home/clockfort/Code/csh-if/csh.inform"
-release to "/home/clockfort/Code/csh-if/csh Materials/Release"
+project folder "C:\Users\clockfort\Dropbox\Code\csh-if\csh.inform"
+release to "C:\Users\clockfort\Dropbox\Code\csh-if\csh Materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Computer Science House.zblorb"
-storyfile "/home/clockfort/Code/csh-if/csh.inform/Build/output.z8" include
-ifiction "/home/clockfort/Code/csh-if/csh.inform/Metadata.iFiction" include
-cover "/usr/share/gnome-inform7/Extensions/Reserved/DefaultCover.jpg"
-picture 1 "/usr/share/gnome-inform7/Extensions/Reserved/DefaultCover.jpg"
+storyfile leafname "Computer Science House- Race To.zblorb"
+storyfile "C:\Users\clockfort\Dropbox\Code\csh-if\csh.inform\Build\output.z8" include
+ifiction "C:\Users\clockfort\Dropbox\Code\csh-if\csh.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Small Cover.jpg"
 
 ! Placeholder variables
 
 placeholder [IFID] = "9F88AEBA-3269-11E0-BEA1-00242120BB7E"
 placeholder [RELEASE] = "1"
-placeholder [YEAR] = "2011"
-placeholder [TITLE] = "Computer Science House"
+placeholder [YEAR] = "2012"
+placeholder [TITLE] = "Computer Science House: Race To Grace"
 placeholder [AUTHOR] = "Chris Lockfort"
-placeholder [BLURB] = "A work of interactive fiction."
+placeholder [BLURB] = "Step inside the zany text-adventure world of CSH. Written for CSH GameJam 2012."
 
 ! Other material to release
 
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Computer Science House- Race To.zblorb.js"
+template path "C:\Users\clockfort\Dropbox\Code\csh-if\csh Materials\Templates"
+template path "C:\Users\clockfort\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+interpreter "Parchment" "z"
+base64 "C:\Users\clockfort\Dropbox\Code\csh-if\csh.inform\Build\output.z8" to "C:\Users\clockfort\Dropbox\Code\csh-if\csh Materials\Release\interpreter\Computer Science House- Race To.zblorb.js"
+
+! Website instructions
+
+template path "C:\Users\clockfort\Dropbox\Code\csh-if\csh Materials\Templates"
+template path "C:\Users\clockfort\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
-status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
-status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
-status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||
